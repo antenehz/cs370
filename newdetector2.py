@@ -1,9 +1,5 @@
 import boto3
 import os
-
-#create files here
-
-
 def detect_emotions(photo):
 	client = boto3.client('rekognition')
 
