@@ -17,8 +17,6 @@ def detect_emotions(photo):
 				con = emotion['Confidence']
 				if(emotion['Type'] == 'HAPPY' or emotion['Type'] == 'SAD'):
 					emo = emotion['Type']
-			#Maddies code goes here that writes emotions to files
-			#print"  {Type} : {Confidence}%".format(**emotion)
 
 	f = open("emotion.txt", "w+")
 	f.write(emo)		
