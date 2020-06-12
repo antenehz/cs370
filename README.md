@@ -1,6 +1,5 @@
 CS370-Project
-Term project for Operating Systems course (CS 370, Spring 2020) consisting of a group of 4. Release date - 5/20/2020
-
+Term project for Operating Systems course (CS 370, Spring 2020) consisting of a group of 4.
 Overview:
 Our project’s objective is to develop an intelligent music player that recognizes human emotions. It will take an image from a camera when a sensor is triggered. Then, a song will play corresponding to the person's emotion/mood. An example of this would be if a person is smiling then the song Happy by Will Farrell will be played. We plan on using PyTorch to create an image classifier that recognizes different human emotions.
 
